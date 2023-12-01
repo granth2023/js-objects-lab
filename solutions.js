@@ -50,3 +50,17 @@ const album2 = {
   
   album3.albumDetails.released = new Date(album3.albumDetails.released)
   console.log(album3.albumDetails.released)
+
+
+
+  const album4 = {
+    title: 'Remain in Light',
+    albumDetails: {
+      released: new Date('October 8, 1980'),
+      formats: ['Cassette', 'LP']
+    }
+  };
+  
+  // Exercise 5:  Add a property named label with the value 'Sire' to album4's albumDetails property
+  
+  
