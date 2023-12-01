@@ -18,3 +18,30 @@ console.log(title);
 album1.label = 'Sire';
 let label = album1.label;
 console.log(label);
+
+
+const album2 = {
+    title: 'More Songs About Buildings and Food',
+    albumDetails: {
+      released: new Date('July 14, 1978'),
+      label: 'Sire',
+      formats: ['LP', '8-track']
+    }
+  };
+  
+  const album3 = {
+    title: 'Fear of Music',
+    albumDetails: {
+      released: 'August 3, 1979',
+      label: 'Sire',
+      formats: ['Cassette']
+    }
+  };
+  
+  // Exercise 3: Accessing the string 'LP' from album2's formats array, add it to the end of album3's formats array.
+  
+  
+  
+  
+  // Exercise 4:  Update the released property of album3 from a string into a Date object using that string
+  
