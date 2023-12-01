@@ -12,3 +12,9 @@ const album1 = {
 album1.title = 'Talking Heads - 77';
 let title = album1.title
 console.log(title);
+
+// Exercise 2: Assign the string 'Sire' from album1 to a variable named label
+
+album1.label = 'Sire';
+let label = album1.label;
+console.log(label);
