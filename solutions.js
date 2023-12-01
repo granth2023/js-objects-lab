@@ -65,3 +65,18 @@ const album2 = {
   
   album4.albumDetails.label = 'Sire';
   console.log(album4.albumDetails.label);
+
+
+  const album5 = {
+    title: 'Little Creatures',
+    albumDetails: {
+      released: new Date('June 10, 1985'),
+      labels: ['Sire', 'emi'],
+      formats: ['CD', 'cassette', 'LP']
+    }
+  };
+  
+  // Exercise 6:  Update the value 'emi' within album5's labels array to 'EMI'
+  
+  
+  
