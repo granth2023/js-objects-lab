@@ -123,3 +123,13 @@ const album2 = {
 
   let labels = talkingHeadsAlbums[4].albumDetails.labels;
   console.log(labels)
+
+
+  // Exercise 9:  Using the talkingHeadsAlbums array, assign album7's released property to album6's released property
+
+
+
+
+// Exercise 10:  Using the pre-defined variable named albumIdx below, assign the albumDetails object of the album located within the talkingHeadsAlbums array at the index represented by the value of albumIdx to a variable named albumDetails
+
+let albumIdx = 4;
