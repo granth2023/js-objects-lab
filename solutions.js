@@ -96,3 +96,25 @@ const album2 = {
 
   let formats = album6.albumDetails.formats;
   console.log(formats)
+
+
+  const album7 = {
+    title: 'Naked',
+    albumDetails: {
+      released: new Date('March 15, 1988'),
+      labels: ['Sire', 'EMI'],
+      formats: ['CD', 'cassette', 'LP']
+    }
+  };
+  
+  const talkingHeadsAlbums = [
+    album1,
+    album2,
+    album3,
+    album4,
+    album5,
+    album6,
+    album7
+  ];
+  
+  // Exercise 8:  Using the talkingHeadsAlbums array, assign album5's labels property to a variable named labels
