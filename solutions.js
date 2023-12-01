@@ -79,4 +79,5 @@ const album2 = {
   // Exercise 6:  Update the value 'emi' within album5's labels array to 'EMI'
   
   
-  
+  album5.albumDetails.labels[1] = "EMI"
+  console.log(album5.albumDetails.labels)
